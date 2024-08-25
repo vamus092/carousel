@@ -1,16 +1,15 @@
 import { Canvas } from '@react-three/fiber'
-//import React from 'react'
+import React from 'react'
 import "./style.css"
 import { OrbitControls} from '@react-three/drei';
-import Scence from"./Cyl";
+import Cyl from"./Cyl";
 const App = () => {
 
   return (
-
-    <Canvas>
+    <Canvas camera={{fov:35}}>
       <OrbitControls/>
       <ambientLight/>
-     
+     <Cyl/>
     </Canvas>
   );
 };
