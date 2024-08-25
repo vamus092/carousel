@@ -10,7 +10,7 @@ const App = () => {
         <meshBasicMaterial/>
       </mesh>
     </Canvas>
-  )
-}
+  );
+};
 
-export default App
+export default App;
