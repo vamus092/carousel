@@ -1,9 +1,9 @@
+import React from "react";
 import { Canvas } from "@react-three/fiber";
-import React from 'react';
 import "./style.css";
 import { OrbitControls} from '@react-three/drei';
 import Cyl from"./Cyl";
-import { EffectComposer, ToneMapping } from "@react-three/postprocessing";
+import { EffectComposer, ToneMapping ,Bloom} from "@react-three/postprocessing";
 const App = () => {
 
   return (
